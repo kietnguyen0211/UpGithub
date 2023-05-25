@@ -1,0 +1,68 @@
+.products{
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.products .oneProduct{
+    width: calc(100% / 4);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 20px 0px;
+}
+.products .oneProduct .innerProduct{
+    width: fit-content;
+    padding: 10px;
+    box-shadow: 0 0 5px 10px #34495e;
+}
+.products .oneProduct .innerProduct img{
+    box-shadow: 0 0 5px 2px #8e44ad;
+    border-radius: 10px 10px 0 0;
+}
+.btnShop{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    color: #8e44ad;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 5px 2px #8e44ad;
+    width: 315px;
+    margin: 16px 0 0 0;
+    border-radius: 0px 0px 10px 10px;
+}
+h1,span{
+    color: #8e44ad;
+}
+.products .meo{
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    background: #4cd137;
+    opacity: 0.8;
+    transform: translateX(-50%);
+    padding: 3px 10px;
+    display: none;
+}
+ .products .active{
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    background: #4cd137;
+    opacity: 0.8;
+    transform: translateX(-50%);
+    padding: 3px 10px;
+}
+.active span{
+color: #fff;
+
+}
